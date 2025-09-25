@@ -76,6 +76,12 @@ return {
 					"a                               - Datei erstellen, bunga/ erstellt den Ordner bunga",
 					" ",
 					" ",
+					"------ Diff ----------------------------------------------",
+					"nvim -d datei1 datei2           - Datei1 und Datei2 werden im split angezeigt und verglichen",
+					":e datei1                                                                                   ",
+					":vsplit datei2                                                                              ",
+					":windo diffthis                 - aktiviert den Diffmodus, es werden nur unterschiede angezeigt",
+					":windo diffoff                  - deaktiviert den Diffmodus",
 				}
 
 				-- Finde den Index der Zeile "------ Suche ------"
